@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment5</title>
+</head>
+
+<body>
+
+
+
+    <script>
+
+        // ****************************CHAPTER NO.5(MATH EXPRESSIONS)****************************//
+        //task 1
+        var num1 = 3;
+        var num2 = 5;
+        var add = (num1 + num2);
+        var text = "Sum of 3 and 5 is ";
+        document.write("<h3>" + text + add + "</h3>");
+
+        //task 2
+        var sub = (num1 - num2);
+        var text1 = "Subtraction of 3 and 5 is ";
+        document.write("<h3>" + text1 + sub + "</h3>");
+
+
+        var multiple = (num1 * num2);
+        var text2 = "Multiplcation of 3 and 5 is ";
+        document.write("<h3>" + text2 + multiple + "</h3>");
+
+
+        var divid = (num2 / num1);
+        var text3 = "Division of 5 and 3 is ";
+        document.write("<h3>" + text3 + divid + "</h3>");
+
+
+        var modulus = (num2 % num1);
+        var text4 = "Modulus of 5 and 3 is ";
+        document.write("<h3>" + text4 + modulus + "</h3>");
+        // task 3
+        var expression = "Mathematical expression";
+        document.write("<h2>" + expression + "<h2>");
+        document.write("<h3>" + "Value after variable declaration is undefine." + "<h3>")
+        var number = 5;
+        var initial_value = "Initial value of number is:";
+        document.write("<h3>" + initial_value + number + "<h3>");
+        document.write("<h3>" + "value of number after increment is:" + ++number + "<h3>");
+        var num = 7;
+        var add = (num + number);
+        document.write("<h3>" + "value of variable after addition is:" + add + "<h3>");
+        document.write("<h3>" + "value of variable after decrement is:" + --add + "<h3>");
+        var modulus = (add % 3);
+        document.write("<h3>" + "Output:" + modulus + "<h3>");
+
+        //task4
+        // var rup = "PKR";
+        var costOfTicket = 600;
+        var costOfBuying = 5 * costOfTicket;
+        document.write("<h3>" + "Total  cost to buy 5 tickets to a movie is " + costOfBuying + "PKR." + "<h3>");
+        //task5
+        var Num1 = 1;
+        var Num2 = 4;
+        var Multiple = Num2 * Num1;
+        var four_1 = "4 * 1 = " + Multiple;
+        var four_2 = "4 * 2 = " + Multiple * ++Num1;
+        var four_3 = "4 * 3 = " + Multiple * ++Num1;
+        var four_4 = "4 * 4 = " + Multiple * ++Num1;
+        var four_5 = "4 * 5 = " + Multiple * ++Num1;
+        var four_6 = "4 * 6 = " + Multiple * ++Num1;
+        var four_7 = "4 * 7 = " + Multiple * ++Num1;
+        var four_8 = "4 * 8 = " + Multiple * ++Num1;
+        var four_9 = "4 * 9 = " + Multiple * ++Num1;
+        var four_10 = "4 * 10 = " + Multiple * ++Num1;
+        document.write(
+            "<table>" + "<tr>" + "<th>" + "Table of 4" + "</th>" + "</tr>"
+            + "<tr>" + "<td>" + four_1 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_2 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_3 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_4 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_5 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_6 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_7 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_8 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_9 + "</td>" + "</tr>"
+            + "<tr>" + "<td>" + four_10 + "</td>" + "</tr>"
+            + "</table>");
+
+        //task6
+        var temp = "The Temperature convertor: ";
+        document.write("<h2>" + temp + "<h2>");
+        var C_temp = 25;
+        var f_temp = 70;
+        f_temp1 = (9 / 5 * C_temp) + 32.
+        document.write("<h3>" + C_temp + "°C is " + f_temp1 + "°F" + "</h3>");
+        C_temp1 = (f_temp - 32) * 5 / 9.
+        document.write("<h3>" + f_temp + "°F is " + C_temp1 + "°C" + "</h3>");
+
+        //task7
+        var shopping = "Shopping Cart: ";
+        document.write("<h1>" + shopping + "<h1>");
+        var priceOfItem1 = 650;
+        var priceOfItem2 = 100;
+        var OrderquanItem1 = 3;
+        var OrderquanItem2 = 7;
+        var ship_charges = 100;
+        var total_cost = (priceOfItem1 * OrderquanItem1) + (priceOfItem2 * OrderquanItem2) + ship_charges;
+        document.write("<h3>" + "Price of item 1 is " + priceOfItem1 + "</h3>");
+        document.write("<h3>" + "Quantity of item 1 is " + OrderquanItem1 + "</h3>");
+        document.write("<h3>" + "Price of item 2 is " + priceOfItem2 + "</h3>");
+        document.write("<h3>" + "Quantity of item 2 is " + OrderquanItem2 + "</h3>");
+        document.write("<h3>" + "Shipping charges is " + ship_charges + "</h3>");
+        document.write("<h3>" + "Total cost of your order is " + total_cost);
+        //task8
+        var MarksSheet = "Marks Sheet: ";
+        document.write("<h1>" + MarksSheet + "<h1>");
+        var total_marks = 980;
+        var marks_obtained = 804;
+        var percentage = (marks_obtained / total_marks) * 100;
+        document.write("<h3>" + "Total Marks is " + total_marks + "</h3>");
+        document.write("<h3>" + "Marks Obtained is " + marks_obtained + "</h3>");
+        document.write("<h3>" + "percentage is " + percentage + " % " + "</h3>");
+        //task9
+        document.write("<h1>" + "Currency in PRK" + "<h1>");
+        var excurrency = (25 * 28) + (10 * 104.80);
+        document.write("<h3>" + "Total currency in PRK is " + excurrency + "</h3>");
+        //task10
+
+        var NUMBER = 5;
+        var result = (5 + NUMBER) * 10 / 2;
+        document.write("<h4>" + "Result of this mathmatical expression is " + result + "</h4>");
+
+        //task11
+        document.write("<h1>" + "The Age Calculator" + "<h1>");
+        var current_yr = 2024;
+        var birth_yr = 1988;
+        var your_age = current_yr - birth_yr;
+        var yourage = current_yr - ++birth_yr;
+        document.write("<h4>" + "Current Year :" + current_yr + "<br>" + "Birth Year :" + birth_yr + " <br>" + "Your Age :" + your_age + " or " + yourage + " years old " + "</h4>");
+
+        //task12
+        document.write("<h1>" + "The Geometrizer : " + "<h1>");
+        var radius = 20;
+        var circumference = 2 * 3.142 * radius;
+        var area = 3.142 * radius * radius;
+        document.write("<h4>" + "Radius of Circle is " + radius + "<br>" + "The Circumference of Circle is " + circumference + "<br>" + "The area of Circle is  " + area + "</h4>");
+        //task13
+        document.write("<h2>" + "The Lifetime Supply Calculator: " + "<h2>");
+        var fav_snack = "Chocolate chip";
+        var CurrentAge = 15;
+        var maxage = 65;
+        var Estimatedamountofsnacksperday = 3;
+        var yearleft = maxage - CurrentAge;
+        var needsnacks = yearleft * 365 * Estimatedamountofsnacksperday; 
+        document.write("<h4>" + "Favourite snacks: " + fav_snack + "<br>" +
+            "Current Age: " + CurrentAge + "<br>" +
+            "Estimated Maximum Age: " + maxage + "<br>" +
+            "Amount of Snacks per day: " + Estimatedamountofsnacksperday + "<br>" +
+            "You will need " + needsnacks + " snacks to last you until the ripe old age of " + maxage + "</h4>");
+    </script>
+</body>
+
+</html>
